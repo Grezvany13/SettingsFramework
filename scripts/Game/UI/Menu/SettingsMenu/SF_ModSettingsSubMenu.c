@@ -20,7 +20,7 @@ class SF_ModSettingsSubMenu: SCR_SettingsSubMenuBase
 	protected static const string SPINBOX_LAYOUT_PATH = "{C9DF0E6590F6C388}UI/layouts/WidgetLibrary/SpinBox/WLib_SpinBox.layout";
 	protected static const string EDITBOX_LAYOUT_PATH = "{0022F0B45ADBC5AC}UI/layouts/WidgetLibrary/EditBox/WLib_EditBox.layout";
 	
-	protected static const string SEPARATOR_LAYOUT_PATH = "{81BE767437998C4C}UI\layouts\Menus\SettingsMenu\ModSettingsMenu\ModSettingSeparator.layout";
+	protected static const string SEPARATOR_LAYOUT_PATH = "{81BE767437998C4C}UI/layouts/Menus/SettingsMenu/ModSettingsMenu/ModSettingSeparator.layout";
 	
 	protected static const string SETTINGS_CONFIG = "{6ACCE116C70654D3}Configs/Mods/SettingsFramework.conf";
 	
