@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{81BE767437998C4C}UI/layouts/Menus/SettingsMenu/BindingMenu/ModSettingSeperator.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

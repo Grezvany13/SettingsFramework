@@ -1,0 +1,93 @@
+HorizontalLayoutWidgetClass {
+ Name "ModSettings"
+ components {
+  SF_ModSettingsSubMenu "{59C2BAC665B125B6}" {
+  }
+ }
+ {
+  VerticalLayoutWidgetClass "{59C2BACA9473EFA5}" {
+   Name "VerticalLayout1"
+   Slot LayoutSlot "{56C871E643A9C2AE}" {
+    Padding 80 0 0 0
+    SizeMode Fill
+    FillWeight 1.5
+   }
+   {
+    ButtonWidgetClass "{59C2BACA9473EFA8}" : "{C9DF0E6590F6C388}UI/layouts/WidgetLibrary/SpinBox/WLib_SpinBox.layout" {
+     Name "ModListBox"
+     Slot LayoutSlot "{58A4CCA8E9BE41A8}" {
+      HorizontalAlign 3
+      Padding 4 4 4 4
+     }
+     components {
+      SCR_SpinBoxComponent "{5472C6CBC0640458}" {
+       m_sLabel "Mod"
+       m_sLabelLayout "{F003823FF141983C}UI/layouts/Menus/SettingsMenu/CustomWidgets/SettingsLabel.layout"
+       m_bUseLightArrows 1
+       m_bCycleMode 1
+      }
+     }
+     {
+     }
+    }
+    HorizontalLayoutWidgetClass "{59C2BACA9473EFAD}" {
+     Name "HorizontalLayout0"
+     Slot LayoutSlot "{58AC8DD481500E17}" {
+      Padding 0 20 0 0
+     }
+     {
+      TextWidgetClass "{59C2BACA9473EFAF}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "Text0"
+       Slot LayoutSlot "{58AC8DD429B37FCC}" {
+        SizeMode Fill
+        FillWeight 4
+       }
+       Text ""
+       "Font Size" 24
+       "Min Font Size" 24
+       FontProperties FontProperties "{546AF489DFD25402}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+       }
+      }
+     }
+    }
+    ScrollLayoutWidgetClass "{59C2BACA9473F2BA}" {
+     Name "ScrollLayout0"
+     Slot LayoutSlot "{56C6D982C4912210}" {
+      Padding 4 4 6 4
+      SizeMode Fill
+      FillWeight 25
+     }
+     Color 0.761 0.392 0.078 1
+     components {
+      SCR_GamepadScrollComponent "{58AC8DC37D7251CD}" {
+      }
+     }
+     {
+      VerticalLayoutWidgetClass "{59C2BACA9473F546}" {
+       Name "ActionRowsContent"
+       Slot AlignableSlot "{56C6D98333704BA2}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding 0 0 5 0
+       }
+       {
+        VerticalLayoutWidgetClass "{59C2BACA9470092C}" {
+         Name "VerticalLayout0"
+         Slot LayoutSlot "{56C6D984D976A7D9}" {
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  VerticalLayoutWidgetClass "{59C2BACA9470092B}" {
+   Name "VerticalLayout0"
+   Slot LayoutSlot "{56C6D980AA7F2F49}" {
+    SizeMode Fill
+   }
+  }
+ }
+}

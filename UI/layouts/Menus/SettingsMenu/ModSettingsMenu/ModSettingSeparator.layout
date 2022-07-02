@@ -1,0 +1,38 @@
+OverlayWidgetClass {
+ Name "ModSettingsSeparator"
+ {
+  HorizontalLayoutWidgetClass "{59C2BAA063F21B15}" {
+   Name "rootFrame"
+   Slot OverlayWidgetSlot "{56D67D658E7D2043}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+    Padding 0 20 0 10
+   }
+   {
+    HorizontalLayoutWidgetClass "{59C2BAA063F21B0B}" {
+     Name "SeparatorContent"
+     Slot LayoutSlot "{56D67D6BD8960FA4}" {
+      SizeMode Fill
+     }
+     {
+      TextWidgetClass "{59C2BAA063F21B09}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "ActionCategoryName"
+       Slot LayoutSlot "{56C871CD9117FACE}" {
+        HorizontalAlign 0
+        VerticalAlign 1
+        Padding 30 0 0 0
+        SizeMode Fill
+       }
+       Text "<NoAction>"
+       "Font Size" 24
+       "Min Font Size" 24
+       FontProperties FontProperties "{546AF489DFD25402}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

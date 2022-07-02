@@ -1,0 +1,145 @@
+ButtonWidgetClass {
+ Name "ModSettingsRow"
+ Clipping False
+ Color 1 1 1 0
+ components {
+  SF_ModSettingsRowComponent "{56D67D6519D21CC7}" {
+  }
+  SCR_ModularButtonComponent "{58ACD4100725F4A1}" {
+   m_aEffects {
+    SCR_ButtonEffectOpacity "{58ACD41004267C0D}" {
+     m_eEvents 6144
+     m_sWidgetName "KeybindBorder"
+     m_fFocusGained 1
+    }
+   }
+  }
+ }
+ {
+  SizeLayoutWidgetClass "{59C2BAA0161E7FCD}" {
+   Name "SizeLayout0"
+   Slot ButtonWidgetSlot "{58ACD410ED10B99D}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+    Padding 0 0 0 0
+   }
+   AllowMinDesiredHeight 1
+   MinDesiredHeight 63
+   {
+    OverlayWidgetClass "{59C2BAA0161E7FC8}" {
+     Name "Overlay0"
+     Slot ButtonWidgetSlot "{58AC8DEF9DF21166}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+      Padding 2 6 2 6
+     }
+     {
+      HorizontalLayoutWidgetClass "{59C2BAA0161E7FC9}" {
+       Name "KeybindFrame"
+       Slot OverlayWidgetSlot "{58AC8DEF9DC81EA5}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        OverlayWidgetClass "{59C2BAA0161E7FC6}" {
+         Name "ActionnameOverlay"
+         Slot LayoutSlot "{58A4CCA831469A5C}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+          FillWeight 4
+         }
+         {
+          VerticalLayoutWidgetClass "{59C2BAA0161E7FC7}" {
+           Name "VerticalLayout0"
+           Slot OverlayWidgetSlot "{58A4CCA8315FD2A4}" {
+            HorizontalAlign 0
+            Padding 25 0 0 0
+           }
+           {
+            SizeLayoutWidgetClass "{59C2BAA0161E794E}" {
+             Name "SizeLayout0"
+             Slot LayoutSlot "{58ECC5E0883B7FBC}" {
+             }
+             AllowMaxDesiredWidth 1
+             MaxDesiredWidth 400
+             {
+              RichTextWidgetClass "{59C2BAA0161E794B}" {
+               Name "Name"
+               Slot LayoutSlot "{58ECC5EC0687331B}" {
+               }
+               Clipping True
+               "Font Size" 20
+               "Min Font Size" 20
+              }
+             }
+            }
+           }
+          }
+          ImageWidgetClass "{59C2BAA0161E794A}" {
+           Name "Background0"
+           Slot OverlayWidgetSlot "{58A4CCA82CD99F41}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" -1
+           Color 0 0 0 0.471
+          }
+         }
+        }
+        OverlayWidgetClass "{59C2BAA0161E7949}" {
+         Name "PCKeybindOverlay"
+         Slot LayoutSlot "{58A4CCA834E440DE}" {
+          HorizontalAlign 2
+          Padding 0 0 0 0
+         }
+         Clipping False
+         {
+          HorizontalLayoutWidgetClass "{59C2BAA0161E36B5}" {
+           Name "HorizontalLayout1"
+           Slot OverlayWidgetSlot "{58A4CCA834FDB46C}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+            Padding 20 0 10 0
+           }
+           components {
+            SCR_ComboBoxComponent "{59C2BAA7989DB5C1}" {
+             m_aElementNames {
+              "A" "B"
+             }
+            }
+            SCR_ButtonTextComponent "{59C2BAA7FCBF35D1}" {
+             m_sText "lorem ipsum dolor"
+            }
+           }
+          }
+          ImageWidgetClass "{59C2BAA0161E36A8}" {
+           Name "Background0"
+           Slot OverlayWidgetSlot "{58A4CCA822913B29}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Z Order" -1
+           Color 0 0 0 0.471
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass "{59C2BAA0161E36A3}" {
+       Name "KeybindBorder"
+       Slot OverlayWidgetSlot "{55367D8E4A13554A}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding -2 -2 -2 -2
+       }
+       Opacity 0
+       Clipping False
+       Color 0.761 0.386 0.078 1
+       style outline_2px
+      }
+     }
+    }
+   }
+  }
+ }
+}

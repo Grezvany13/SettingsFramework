@@ -1,0 +1,34 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{589F0C0A8CE05C69}" {
+   Prefab "{589F0C0A8CE05C69}"
+   {
+    SizeLayoutWidgetClass "{589F093B48C39BEF}" {
+     Prefab "{589F093B48C39BEF}"
+     {
+      VerticalLayoutWidgetClass "{589F093B48C39BEC}" {
+       Prefab "{589F093B48C39BEC}"
+       {
+        VerticalLayoutWidgetClass "{589F093AB3EA94A2}" {
+         Prefab "{589F093AB3EA94A2}"
+         components {
+          SCR_TabViewComponent "{546B27D01CA8A38D}" {
+           m_aElements {
+            SCR_TabViewContent "{59C2BACD93F0BFCB}" {
+             m_ElementLayout "{1D2D036656276993}UI/layouts/Menus/SettingsMenu/ModSettings.layout"
+             m_sTabButtonContent "Mod Settings"
+            }
+           }
+          }
+         }
+         {
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
